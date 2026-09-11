@@ -1,0 +1,119 @@
+[
+  {
+    "block": 20000000,
+    "tx": "0xcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+    "transactionIndex": 0,
+    "logIndex": 0,
+    "type": "START",
+    "buildId": 1,
+    "tapeHash": "0x5b427e4e3e6fb92dbb42853a4342f77046933b9cac5c1a30f80ea80397ebcf03"
+  },
+  {
+    "block": 20000000,
+    "tx": "0xcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+    "transactionIndex": 0,
+    "logIndex": 1,
+    "type": "AUTHOR",
+    "buildId": 1,
+    "author": "0x2222222222222222222222222222222222222222",
+    "authorCount": 1
+  },
+  {
+    "block": 20000000,
+    "tx": "0xcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+    "transactionIndex": 0,
+    "logIndex": 2,
+    "type": "WRITE",
+    "trader": "0x2222222222222222222222222222222222222222",
+    "opcode": "PUSH",
+    "index": 0,
+    "tapeHash": "0x5b82776feebe8920ed2cd747fd808267a1d2077cb800e47efaa99176959fe860"
+  },
+  {
+    "block": 20000000,
+    "tx": "0xcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+    "transactionIndex": 0,
+    "logIndex": 3,
+    "type": "WRITE",
+    "trader": "0x2222222222222222222222222222222222222222",
+    "opcode": "MOVE",
+    "index": 1,
+    "tapeHash": "0x7a395cc0793653791475276413b25e4f0e530e959f7dd434deb6211c1663ace5"
+  },
+  {
+    "block": 20000000,
+    "tx": "0xcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+    "transactionIndex": 0,
+    "logIndex": 4,
+    "type": "WRITE",
+    "trader": "0x2222222222222222222222222222222222222222",
+    "opcode": "XOR",
+    "index": 2,
+    "tapeHash": "0x7af5665bc68b748221c35a6f11dd73294816e185b09635b4830d4884aa8a7b71"
+  },
+  {
+    "block": 20000000,
+    "tx": "0xcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+    "transactionIndex": 0,
+    "logIndex": 5,
+    "type": "WRITE",
+    "trader": "0x2222222222222222222222222222222222222222",
+    "opcode": "COPY",
+    "index": 3,
+    "tapeHash": "0x6fd4039a999d03d2fa9a325a5b2d90db826e7e88bb20831656dfbfa731ec0d52"
+  },
+  {
+    "block": 20000000,
+    "tx": "0xcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+    "transactionIndex": 0,
+    "logIndex": 6,
+    "type": "WRITE",
+    "trader": "0x2222222222222222222222222222222222222222",
+    "opcode": "LINK",
+    "index": 4,
+    "tapeHash": "0x000f312d2c3711e2cd9dccd5bf11a2f8ebee9f5c4ff37e965147d091eaaedd97"
+  },
+  {
+    "block": 20000000,
+    "tx": "0xcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+    "transactionIndex": 0,
+    "logIndex": 7,
+    "type": "WRITE",
+    "trader": "0x2222222222222222222222222222222222222222",
+    "opcode": "CHECK",
+    "index": 5,
+    "tapeHash": "0x08a1614286af5773a35b1fba31797008b3bd5b86c2a8471be1d6910f628454cf"
+  },
+  {
+    "block": 20000000,
+    "tx": "0xcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+    "transactionIndex": 0,
+    "logIndex": 8,
+    "type": "WRITE",
+    "trader": "0x2222222222222222222222222222222222222222",
+    "opcode": "SHIFT",
+    "index": 6,
+    "tapeHash": "0x52d6c366ba108986e23a34023201bdb477e3f65a4867964faee8e5e2e9716964"
+  },
+  {
+    "block": 20000000,
+    "tx": "0xcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+    "transactionIndex": 0,
+    "logIndex": 9,
+    "type": "WRITE",
+    "trader": "0x2222222222222222222222222222222222222222",
+    "opcode": "HALT",
+    "index": 7,
+    "tapeHash": "0xf827b8b25b83ac63938a06e62961cfc0dd396a50f1f08704224d9b29ae25965a"
+  },
+  {
+    "block": 20000000,
+    "tx": "0xcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+    "transactionIndex": 0,
+    "logIndex": 10,
+    "type": "SEAL",
+    "buildId": 1,
+    "programHash": "0xf827b8b25b83ac63938a06e62961cfc0dd396a50f1f08704224d9b29ae25965a",
+    "finalizer": "0x2222222222222222222222222222222222222222"
+  }
+]

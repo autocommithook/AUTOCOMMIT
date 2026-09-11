@@ -1,0 +1,25 @@
+{
+  "name": "autocommit-mirror",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "reconstruct": "node scripts/reconstruct.ts",
+    "sync": "node scripts/sync.ts",
+    "verify": "node scripts/verify-build.ts",
+    "check": "tsc --noEmit",
+    "test": "node --test test/*.test.ts",
+    "examples": "node scripts/examples.ts",
+    "readme": "node scripts/update-readme.ts"
+  },
+  "dependencies": {
+    "viem": "^2.55.10"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.0",
+    "typescript": "^5.9.3"
+  }
+}

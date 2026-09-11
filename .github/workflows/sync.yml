@@ -1,0 +1,38 @@
+name: Sync AUTOCOMMIT
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/30 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: autocommit-mirror
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.18.0'
+      - run: npm install --ignore-scripts --no-audit --no-fund
+      - run: npm run check && npm test
+      - name: Sync from Repository variables
+        env:
+          CONTRACT_ADDRESS: ${{ vars.CONTRACT_ADDRESS }}
+          DEPLOY_BLOCK: ${{ vars.DEPLOY_BLOCK }}
+        run: npm run sync
+      - name: Commit mirror changes
+        shell: bash
+        run: |
+          git add -- live builds README.md
+          if git diff --cached --quiet; then
+            echo 'No mirror changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "$(node scripts/commit-message.ts)"
+          git push

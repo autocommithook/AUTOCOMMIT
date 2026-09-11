@@ -1,0 +1,8 @@
+{
+  "buildId": null,
+  "tapeLength": 0,
+  "tapeHash": null,
+  "lastProcessedBlock": null,
+  "lastTransaction": null,
+  "status": "UNCONFIGURED"
+}
