@@ -31,26 +31,58 @@ Only the current state.
 | Machine | Current state |
 | --- | --- |
 | Status | BUILDING |
-| Build | #000010 |
-| Tape | 0 / 256 instructions |
-| Tape hash | `0xf9bcda0785b02bb22c6724b42be0aeffd9d8626af23261dc3a25284e2245084c` |
-| Authors in this build | [0](live/authors.json) |
-| Sealed builds | [9](builds/) |
-| Finalized through | [25956891](https://etherscan.io/block/25956891) |
+| Build | #000019 |
+| Tape | 33 / 256 instructions |
+| Tape hash | `0x571fa5e839c5937469a66db62f4391b7c726b6544adf402a99b83619b4adb232` |
+| Authors in this build | [12](live/authors.json) |
+| Sealed builds | [18](builds/) |
+| Finalized through | [25957369](https://etherscan.io/block/25957369) |
 | Contract | [0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc](https://etherscan.io/address/0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc) |
-| Last machine transaction | [0x04c604d7…](https://etherscan.io/tx/0x04c604d7794d9850aa9dd2038e99a5096f3207c93625205cef51383983370d0d) |
+| Last machine transaction | [0x529aa2bc…](https://etherscan.io/tx/0x529aa2bcf4661c09d9f4c3c2dc5c7d93947cc56e60b7cf5ec1884c341169f8a6) |
 
 ```asm
-; Empty tape — waiting for a write.
+DROP
+PUSH
+PUSH
+COPY
+RETURN
+BREAK
+JUMP
+BREAK
+RETURN
+LOCK
+BREAK
+CHECK
+LOCK
+CHECK
+MOVE
+ADD
+CHECK
+LOCK
+CHECK
+SHIFT
+LINK
+OPEN
+PUSH
+PUSH
+JUMP
+DROP
+PUSH
+RETURN
+LINK
+MOVE
+DROP
+RETURN
+RETURN
 ```
 
 [Tape](live/tape.asm) · [State](live/state.json) · [Trace](live/trace.json) · [Authors](live/authors.json)
 
 A build seals when the final opcode is HALT and the tape has at least 8 instructions.
 
-Latest sealed build: [#000009](builds/000009/program.asm) — **VERIFIED**.
+Latest sealed build: [#000018](builds/000018/program.asm) — **VERIFIED**.
 
-Finalizer: [0x4313c378cc91ea583c91387b9216e2c03096b27f](https://etherscan.io/address/0x4313c378cc91ea583c91387b9216e2c03096b27f) · [Sealing transaction](https://etherscan.io/tx/0x04c604d7794d9850aa9dd2038e99a5096f3207c93625205cef51383983370d0d).
+Finalizer: [0x4313c378cc91ea583c91387b9216e2c03096b27f](https://etherscan.io/address/0x4313c378cc91ea583c91387b9216e2c03096b27f) · [Sealing transaction](https://etherscan.io/tx/0x908db5699c5ee3adbc595dbc582ad043207af78b920d16fc7f6cb93a8b898581).
 
 *Snapshot of finalized Ethereum state. This section updates when the sync workflow runs.*
 
