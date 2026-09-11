@@ -28,10 +28,6 @@ Only the current state.
 
 <!-- AUTOCOMMIT:LIVE:START -->
 
-**Waiting for the first sync.**
-
-Add `CONTRACT_ADDRESS` and `DEPLOY_BLOCK` under **Settings → Secrets and variables → Actions → Variables → Repository variables**, then run **Actions → Sync AUTOCOMMIT → Run workflow**. No on-chain state has been published yet.
-
 <!-- AUTOCOMMIT:LIVE:END -->
 
 The active program follows the pool.
