@@ -1,0 +1,272 @@
+[
+  {
+    "block": 25956878,
+    "tx": "0x8e54e021c7757705cd3183632504bf83d58f0adbe554c12712ee20a754cb111a",
+    "transactionIndex": 141,
+    "logIndex": 1404,
+    "type": "START",
+    "buildId": 8,
+    "tapeHash": "0x2e43dfd320ffa16089967cfa6c1d866e5ba6d664dea10b32645297847dd4b7db"
+  },
+  {
+    "block": 25956879,
+    "tx": "0x699de529658c6b3fbc75258dfe131517e919a1947ab68a6f5fce935a2fddd20d",
+    "transactionIndex": 17,
+    "logIndex": 62,
+    "type": "AUTHOR",
+    "buildId": 8,
+    "author": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+    "authorCount": 1
+  },
+  {
+    "block": 25956879,
+    "tx": "0x699de529658c6b3fbc75258dfe131517e919a1947ab68a6f5fce935a2fddd20d",
+    "transactionIndex": 17,
+    "logIndex": 63,
+    "type": "WRITE",
+    "trader": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+    "opcode": "COPY",
+    "index": 0,
+    "tapeHash": "0xc411515e61e828369e8dab45bfbb067994c1ad3f0f70de5851fd937479d238cc"
+  },
+  {
+    "block": 25956880,
+    "tx": "0xc8444ec0b37c6ea1bf0c4ea43ef2874f1f614fcf18e6df45f4491100fa126cd8",
+    "transactionIndex": 87,
+    "logIndex": 216,
+    "type": "AUTHOR",
+    "buildId": 8,
+    "author": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "authorCount": 2
+  },
+  {
+    "block": 25956880,
+    "tx": "0xc8444ec0b37c6ea1bf0c4ea43ef2874f1f614fcf18e6df45f4491100fa126cd8",
+    "transactionIndex": 87,
+    "logIndex": 217,
+    "type": "WRITE",
+    "trader": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "opcode": "RETURN",
+    "index": 1,
+    "tapeHash": "0x2f3c9e2c3d88654089bd9c9893933b384ce7d9e0c1abafae1f66c9041dc5993b"
+  },
+  {
+    "block": 25956882,
+    "tx": "0x6e35e098e787dfe4d4db6bfb6bd5f2f805c52c75de5c1dd2f5fb2759587a9c06",
+    "transactionIndex": 68,
+    "logIndex": 988,
+    "type": "AUTHOR",
+    "buildId": 8,
+    "author": "0x5228ed975c6bcb53d2e221ba737362fd9add0b60",
+    "authorCount": 3
+  },
+  {
+    "block": 25956882,
+    "tx": "0x6e35e098e787dfe4d4db6bfb6bd5f2f805c52c75de5c1dd2f5fb2759587a9c06",
+    "transactionIndex": 68,
+    "logIndex": 989,
+    "type": "WRITE",
+    "trader": "0x5228ed975c6bcb53d2e221ba737362fd9add0b60",
+    "opcode": "LINK",
+    "index": 2,
+    "tapeHash": "0xef7e2e29284831b891a8e86304cf770da4af48bce45fbef1f4eca783f9ef9914"
+  },
+  {
+    "block": 25956884,
+    "tx": "0x98baf22b238a2e2dde5245347244a86df80d698b4db0ced665c1b72287cbff84",
+    "transactionIndex": 13,
+    "logIndex": 101,
+    "type": "WRITE",
+    "trader": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "opcode": "LOCK",
+    "index": 3,
+    "tapeHash": "0xccba8ea8e4a75cc7826d08d845af254bad1c0327e995c3e611ba7c459912120f"
+  },
+  {
+    "block": 25956884,
+    "tx": "0x6019ed2297e4b841af5e98451ca9ec3b8dff821a65e4fb7edb367974242e0d63",
+    "transactionIndex": 74,
+    "logIndex": 1031,
+    "type": "AUTHOR",
+    "buildId": 8,
+    "author": "0x666fedd4cdd4e890a5ad20e7b60975409435a64a",
+    "authorCount": 4
+  },
+  {
+    "block": 25956884,
+    "tx": "0x6019ed2297e4b841af5e98451ca9ec3b8dff821a65e4fb7edb367974242e0d63",
+    "transactionIndex": 74,
+    "logIndex": 1032,
+    "type": "WRITE",
+    "trader": "0x666fedd4cdd4e890a5ad20e7b60975409435a64a",
+    "opcode": "SWAP",
+    "index": 4,
+    "tapeHash": "0xf2f0064192b53948e7e079f0a593623dbc302e242f2186c0037d7b69e5c957a0"
+  },
+  {
+    "block": 25956884,
+    "tx": "0x84aef7f84052391e3e2db0d6946c0cf0dbaa3b60d860c51b84d02e4e084148e7",
+    "transactionIndex": 242,
+    "logIndex": 2276,
+    "type": "EDIT",
+    "trader": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "edit": "DELETE",
+    "opcode": "SWAP",
+    "index": 4,
+    "tapeHash": "0xf57a755a9ec47474dfcb9856abe050b0e763b20f1af85cf08d8feb99b57f7de0"
+  },
+  {
+    "block": 25956885,
+    "tx": "0x2519ea5531124d23db50b9a02240ce9f1ea5852a7fb25eca3888fcac2cd1ac45",
+    "transactionIndex": 17,
+    "logIndex": 193,
+    "type": "WRITE",
+    "trader": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "opcode": "JUMP",
+    "index": 4,
+    "tapeHash": "0x9dbd3be04ae0c255ef3af591870fa14f812d5b67c53a415f466ac42582a5acaa"
+  },
+  {
+    "block": 25956886,
+    "tx": "0x3998a173bfd1495bebf2893e41a9cfe9bf122f7c96dc99f50e8243498ff01fbe",
+    "transactionIndex": 31,
+    "logIndex": 54,
+    "type": "AUTHOR",
+    "buildId": 8,
+    "author": "0xb704fcb4c43bdc030de7ec5e0d5264b99aa3af36",
+    "authorCount": 5
+  },
+  {
+    "block": 25956886,
+    "tx": "0x3998a173bfd1495bebf2893e41a9cfe9bf122f7c96dc99f50e8243498ff01fbe",
+    "transactionIndex": 31,
+    "logIndex": 55,
+    "type": "EDIT",
+    "trader": "0xb704fcb4c43bdc030de7ec5e0d5264b99aa3af36",
+    "edit": "ROTATE",
+    "opcode": "RETURN",
+    "index": 0,
+    "tapeHash": "0x2d1949b9a479f91719d70df09bc29c21bdd71b7cfedfdc5ca772d0a977320e47"
+  },
+  {
+    "block": 25956886,
+    "tx": "0xcddc955e2d53542e1cdc99988c561ab49398ceac15b235b075045f5779786358",
+    "transactionIndex": 59,
+    "logIndex": 82,
+    "type": "WRITE",
+    "trader": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+    "opcode": "HALT",
+    "index": 5,
+    "tapeHash": "0xb1ee5033fe38b9ecf47d6ed32c9fc0257315b91291c8a0101ebf1a6107669332"
+  },
+  {
+    "block": 25956886,
+    "tx": "0xa4ef739c8a70e24d365d47c1e0733e745cb8e8a796c6ef900c38fe4e6d155dc1",
+    "transactionIndex": 67,
+    "logIndex": 96,
+    "type": "AUTHOR",
+    "buildId": 8,
+    "author": "0x60943cb06b76a24431659165c81a03c16f1c325c",
+    "authorCount": 6
+  },
+  {
+    "block": 25956886,
+    "tx": "0xa4ef739c8a70e24d365d47c1e0733e745cb8e8a796c6ef900c38fe4e6d155dc1",
+    "transactionIndex": 67,
+    "logIndex": 97,
+    "type": "WRITE",
+    "trader": "0x60943cb06b76a24431659165c81a03c16f1c325c",
+    "opcode": "DROP",
+    "index": 6,
+    "tapeHash": "0x56c37bed7d53a320848746c902d625ce514c24e4387a68da1580c7eb35efcf36"
+  },
+  {
+    "block": 25956886,
+    "tx": "0x6f41eca6bb02b2302d7e1887c8d7d7f94c4e6b3614e68ac9a8d576d47aa6a2a0",
+    "transactionIndex": 70,
+    "logIndex": 107,
+    "type": "WRITE",
+    "trader": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "opcode": "SHIFT",
+    "index": 7,
+    "tapeHash": "0xdca6775e0b08d6116a2648f9d0e95bbd1905cf6bd53a4f6bfc4a68f7cc098614"
+  },
+  {
+    "block": 25956887,
+    "tx": "0x10388e88d8c293492a926cb071bf02551229477a838c0233766490985c2eb369",
+    "transactionIndex": 76,
+    "logIndex": 173,
+    "type": "WRITE",
+    "trader": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+    "opcode": "SHIFT",
+    "index": 8,
+    "tapeHash": "0x2ef1846869890a154917960f9d1bcde07989280813f6e4389f827621926372fc"
+  },
+  {
+    "block": 25956887,
+    "tx": "0xea59a1103e3d2483796700418eb742f710bdecc837a6c66d453929293e1090da",
+    "transactionIndex": 79,
+    "logIndex": 440,
+    "type": "EDIT",
+    "trader": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "edit": "ROTATE",
+    "opcode": "LINK",
+    "index": 0,
+    "tapeHash": "0x71362dc9124ed64383baa8a716bcd44d91f57034aaf41bf2acdd9a44153331c7"
+  },
+  {
+    "block": 25956888,
+    "tx": "0x089423fcd29cbe69cb753acaee300e8fe0bb48dd0017e15704f9bfa710c81af8",
+    "transactionIndex": 104,
+    "logIndex": 217,
+    "type": "WRITE",
+    "trader": "0x60943cb06b76a24431659165c81a03c16f1c325c",
+    "opcode": "OPEN",
+    "index": 9,
+    "tapeHash": "0x9cd065a14e503bfeb1440b4c7293997984156a4ef048fd6c4b8e0e0613c12e90"
+  },
+  {
+    "block": 25956888,
+    "tx": "0xa94f54f3f698d7cfc5c401d3fb2cbf3d88d4ff6fd5e9dc4acc4cd5b96c647f97",
+    "transactionIndex": 106,
+    "logIndex": 224,
+    "type": "EDIT",
+    "trader": "0xb704fcb4c43bdc030de7ec5e0d5264b99aa3af36",
+    "edit": "ROTATE",
+    "opcode": "LOCK",
+    "index": 0,
+    "tapeHash": "0xa2db090da7d14085bd4d4c91e94e75dd1f1ec5a26efc8bcf675ff657e1cb8f39"
+  },
+  {
+    "block": 25956889,
+    "tx": "0x30e9839e96febd29061d331c5f21d74c5b5c88bc8f723079eef4e19890d54acf",
+    "transactionIndex": 3,
+    "logIndex": 28,
+    "type": "WRITE",
+    "trader": "0x666fedd4cdd4e890a5ad20e7b60975409435a64a",
+    "opcode": "PUSH",
+    "index": 10,
+    "tapeHash": "0xf1cc8829f8011c3b8f1f7fc485fa87354078f925ea397b5a07bf44076d1dbf91"
+  },
+  {
+    "block": 25956889,
+    "tx": "0x5533debb79b3c7b025dcf95ee387e931a07be1ab3caa4353385cd61307027b9e",
+    "transactionIndex": 13,
+    "logIndex": 64,
+    "type": "WRITE",
+    "trader": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "opcode": "HALT",
+    "index": 11,
+    "tapeHash": "0x7e62b95f5a7a6ddd5d26c9560407f05ed22738713db953d450f3a58cad6a4071"
+  },
+  {
+    "block": 25956889,
+    "tx": "0x5533debb79b3c7b025dcf95ee387e931a07be1ab3caa4353385cd61307027b9e",
+    "transactionIndex": 13,
+    "logIndex": 65,
+    "type": "SEAL",
+    "buildId": 8,
+    "programHash": "0x7e62b95f5a7a6ddd5d26c9560407f05ed22738713db953d450f3a58cad6a4071",
+    "finalizer": "0x4313c378cc91ea583c91387b9216e2c03096b27f"
+  }
+]

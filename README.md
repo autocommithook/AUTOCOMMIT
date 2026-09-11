@@ -31,14 +31,14 @@ Only the current state.
 | Machine | Current state |
 | --- | --- |
 | Status | BUILDING |
-| Build | #000001 |
+| Build | #000010 |
 | Tape | 0 / 256 instructions |
-| Tape hash | `0x3e721b995bd98639ec48eafaf6e88bafe169688c9a67db9ae3de8f92fafa270b` |
+| Tape hash | `0xf9bcda0785b02bb22c6724b42be0aeffd9d8626af23261dc3a25284e2245084c` |
 | Authors in this build | [0](live/authors.json) |
-| Sealed builds | [0](builds/) |
-| Finalized through | [25956827](https://etherscan.io/block/25956827) |
+| Sealed builds | [9](builds/) |
+| Finalized through | [25956891](https://etherscan.io/block/25956891) |
 | Contract | [0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc](https://etherscan.io/address/0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc) |
-| Last machine transaction | [0x063b411c…](https://etherscan.io/tx/0x063b411c2e242a1f6c7acd04362456fa66ad1f6a05238ba763f9b6d6aeaface9) |
+| Last machine transaction | [0x04c604d7…](https://etherscan.io/tx/0x04c604d7794d9850aa9dd2038e99a5096f3207c93625205cef51383983370d0d) |
 
 ```asm
 ; Empty tape — waiting for a write.
@@ -47,6 +47,10 @@ Only the current state.
 [Tape](live/tape.asm) · [State](live/state.json) · [Trace](live/trace.json) · [Authors](live/authors.json)
 
 A build seals when the final opcode is HALT and the tape has at least 8 instructions.
+
+Latest sealed build: [#000009](builds/000009/program.asm) — **VERIFIED**.
+
+Finalizer: [0x4313c378cc91ea583c91387b9216e2c03096b27f](https://etherscan.io/address/0x4313c378cc91ea583c91387b9216e2c03096b27f) · [Sealing transaction](https://etherscan.io/tx/0x04c604d7794d9850aa9dd2038e99a5096f3207c93625205cef51383983370d0d).
 
 *Snapshot of finalized Ethereum state. This section updates when the sync workflow runs.*
 
