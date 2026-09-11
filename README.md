@@ -28,6 +28,28 @@ Only the current state.
 
 <!-- AUTOCOMMIT:LIVE:START -->
 
+| Machine | Current state |
+| --- | --- |
+| Status | BUILDING |
+| Build | #000001 |
+| Tape | 0 / 256 instructions |
+| Tape hash | `0x3e721b995bd98639ec48eafaf6e88bafe169688c9a67db9ae3de8f92fafa270b` |
+| Authors in this build | [0](live/authors.json) |
+| Sealed builds | [0](builds/) |
+| Finalized through | [25956827](https://etherscan.io/block/25956827) |
+| Contract | [0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc](https://etherscan.io/address/0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc) |
+| Last machine transaction | [0x063b411c…](https://etherscan.io/tx/0x063b411c2e242a1f6c7acd04362456fa66ad1f6a05238ba763f9b6d6aeaface9) |
+
+```asm
+; Empty tape — waiting for a write.
+```
+
+[Tape](live/tape.asm) · [State](live/state.json) · [Trace](live/trace.json) · [Authors](live/authors.json)
+
+A build seals when the final opcode is HALT and the tape has at least 8 instructions.
+
+*Snapshot of finalized Ethereum state. This section updates when the sync workflow runs.*
+
 <!-- AUTOCOMMIT:LIVE:END -->
 
 The active program follows the pool.
