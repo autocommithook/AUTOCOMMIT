@@ -31,35 +31,28 @@ Only the current state.
 | Machine | Current state |
 | --- | --- |
 | Status | BUILDING |
-| Build | #000037 |
-| Tape | 10 / 256 instructions |
-| Tape hash | `0xd37b959d14b17729c71281e324c06ad42b4cc67c26ba7c1fe7c906208ded6fba` |
-| Authors in this build | [6](live/authors.json) |
-| Sealed builds | [36](builds/) |
-| Finalized through | [25960842](https://etherscan.io/block/25960842) |
+| Build | #000040 |
+| Tape | 3 / 256 instructions |
+| Tape hash | `0x2b2c32ba5e83bfd28742b2239de5f1921e6556790701b8f8dc9e9a1984e3237b` |
+| Authors in this build | [3](live/authors.json) |
+| Sealed builds | [39](builds/) |
+| Finalized through | [25961801](https://etherscan.io/block/25961801) |
 | Contract | [0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc](https://etherscan.io/address/0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc) |
-| Last machine transaction | [0xb2827c80…](https://etherscan.io/tx/0xb2827c806ab43dae37a970f878922adeb88a6f09862d5de1cb4d91f6b8bb2a75) |
+| Last machine transaction | [0x7891c7b2…](https://etherscan.io/tx/0x7891c7b26d85c6f00a355a95b167431359921e52d136af045e86f8fb244b5a07) |
 
 ```asm
+JUMP
 MOVE
-DROP
-DROP
-LINK
-SHIFT
-RETURN
-SWAP
-SHIFT
-RETURN
-RETURN
+MOVE
 ```
 
 [Tape](live/tape.asm) · [State](live/state.json) · [Trace](live/trace.json) · [Authors](live/authors.json)
 
 A build seals when the final opcode is HALT and the tape has at least 8 instructions.
 
-Latest sealed build: [#000036](builds/000036/program.asm) — **VERIFIED**.
+Latest sealed build: [#000039](builds/000039/program.asm) — **VERIFIED**.
 
-Finalizer: [0x66a9893cc07d91d95644aedd05d03f95e1dba8af](https://etherscan.io/address/0x66a9893cc07d91d95644aedd05d03f95e1dba8af) · [Sealing transaction](https://etherscan.io/tx/0x0b4de7c48560766b210d48f50dcf98e8e39b9e36f1995c7dbb1b781785a349ea).
+Finalizer: [0x4313c378cc91ea583c91387b9216e2c03096b27f](https://etherscan.io/address/0x4313c378cc91ea583c91387b9216e2c03096b27f) · [Sealing transaction](https://etherscan.io/tx/0x9d7727b4ed55ea531272e7f873e9d8d21237b730977fac1a9a74b0d66210516b).
 
 *Snapshot of finalized Ethereum state. This section updates when the sync workflow runs.*
 
