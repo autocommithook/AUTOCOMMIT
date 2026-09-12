@@ -31,18 +31,22 @@ Only the current state.
 | Machine | Current state |
 | --- | --- |
 | Status | BUILDING |
-| Build | #000040 |
-| Tape | 3 / 256 instructions |
-| Tape hash | `0x2b2c32ba5e83bfd28742b2239de5f1921e6556790701b8f8dc9e9a1984e3237b` |
-| Authors in this build | [3](live/authors.json) |
-| Sealed builds | [39](builds/) |
-| Finalized through | [25961801](https://etherscan.io/block/25961801) |
+| Build | #000041 |
+| Tape | 7 / 256 instructions |
+| Tape hash | `0x1089fb82df1727176193478ac01db2283960c42aa0a72d0741cfbda2a8eb68a4` |
+| Authors in this build | [6](live/authors.json) |
+| Sealed builds | [40](builds/) |
+| Finalized through | [25962725](https://etherscan.io/block/25962725) |
 | Contract | [0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc](https://etherscan.io/address/0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc) |
-| Last machine transaction | [0x7891c7b2…](https://etherscan.io/tx/0x7891c7b26d85c6f00a355a95b167431359921e52d136af045e86f8fb244b5a07) |
+| Last machine transaction | [0x21c039ce…](https://etherscan.io/tx/0x21c039ceacb2a18642dc049ae92915ea6b95cd0b568f3207c620368b33770e96) |
 
 ```asm
-JUMP
-MOVE
+SWAP
+XOR
+SWAP
+CHECK
+LINK
+DROP
 MOVE
 ```
 
@@ -50,9 +54,9 @@ MOVE
 
 A build seals when the final opcode is HALT and the tape has at least 8 instructions.
 
-Latest sealed build: [#000039](builds/000039/program.asm) — **VERIFIED**.
+Latest sealed build: [#000040](builds/000040/program.asm) — **VERIFIED**.
 
-Finalizer: [0x4313c378cc91ea583c91387b9216e2c03096b27f](https://etherscan.io/address/0x4313c378cc91ea583c91387b9216e2c03096b27f) · [Sealing transaction](https://etherscan.io/tx/0x9d7727b4ed55ea531272e7f873e9d8d21237b730977fac1a9a74b0d66210516b).
+Finalizer: [0x00000000e91fc5bad977c0cc4ad60557c06886a2](https://etherscan.io/address/0x00000000e91fc5bad977c0cc4ad60557c06886a2) · [Sealing transaction](https://etherscan.io/tx/0xca37d6aad01406be06418279417b7f06824684980c0b8b412e65debb2352717b).
 
 *Snapshot of finalized Ethereum state. This section updates when the sync workflow runs.*
 
