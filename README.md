@@ -31,45 +31,33 @@ Only the current state.
 | Machine | Current state |
 | --- | --- |
 | Status | BUILDING |
-| Build | #000044 |
-| Tape | 20 / 256 instructions |
-| Tape hash | `0xe24ae51ebe8b4b2db41b05dd6a89ae785443630f07f1a1c3f97bd09259584281` |
-| Authors in this build | [17](live/authors.json) |
-| Sealed builds | [43](builds/) |
-| Finalized through | [25969780](https://etherscan.io/block/25969780) |
+| Build | #000047 |
+| Tape | 8 / 256 instructions |
+| Tape hash | `0x27ce3c8a8ecfcee7c921f620924c1f6fa8238e0b1d3a337080f056de82b8e78b` |
+| Authors in this build | [7](live/authors.json) |
+| Sealed builds | [46](builds/) |
+| Finalized through | [25970577](https://etherscan.io/block/25970577) |
 | Contract | [0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc](https://etherscan.io/address/0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc) |
-| Last machine transaction | [0x30468aab…](https://etherscan.io/tx/0x30468aab4e0df2dac0560093d6984205951caa12b67005b3ebd0c0b3dc558343) |
+| Last machine transaction | [0xbb058247…](https://etherscan.io/tx/0xbb0582479f4a1359edac52d69d177c11941f80c80c86a0c9ace5b321cf47b2eb) |
 
 ```asm
+SHIFT
 RETURN
-OPEN
-OPEN
-SHIFT
+DROP
+LOCK
 COPY
-HALT
-DROP
-SHIFT
-DROP
-LINK
-SWAP
-MOVE
-PUSH
-LINK
-PUSH
-SHIFT
-LINK
-OPEN
 ADD
-MOVE
+RETURN
+LINK
 ```
 
 [Tape](live/tape.asm) · [State](live/state.json) · [Trace](live/trace.json) · [Authors](live/authors.json)
 
 A build seals when the final opcode is HALT and the tape has at least 8 instructions.
 
-Latest sealed build: [#000043](builds/000043/program.asm) — **VERIFIED**.
+Latest sealed build: [#000046](builds/000046/program.asm) — **VERIFIED**.
 
-Finalizer: [0x1b82a3d07fc1da1392110509cc47bb38678d7f59](https://etherscan.io/address/0x1b82a3d07fc1da1392110509cc47bb38678d7f59) · [Sealing transaction](https://etherscan.io/tx/0xf942eed5f26f0eafceb12eb65e25e5baa5b0cd6fc24a6c760de13da93efc8516).
+Finalizer: [0x66a9893cc07d91d95644aedd05d03f95e1dba8af](https://etherscan.io/address/0x66a9893cc07d91d95644aedd05d03f95e1dba8af) · [Sealing transaction](https://etherscan.io/tx/0x72ebff14ff2081fc00e09d7ba9387814a021ea1104af934febd897db706ab1c6).
 
 *Snapshot of finalized Ethereum state. This section updates when the sync workflow runs.*
 
