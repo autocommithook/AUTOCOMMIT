@@ -31,31 +31,31 @@ Only the current state.
 | Machine | Current state |
 | --- | --- |
 | Status | BUILDING |
-| Build | #000043 |
+| Build | #000044 |
 | Tape | 6 / 256 instructions |
-| Tape hash | `0xebf9a87333e277126f8659a755cbd28f5588c9645f84bc66d66fcd621b70fe04` |
-| Authors in this build | [2](live/authors.json) |
-| Sealed builds | [42](builds/) |
-| Finalized through | [25964639](https://etherscan.io/block/25964639) |
+| Tape hash | `0xebd22819bc6e15ba45ddf9d1891b7e404ab43e3b8b59fd6adc14c81aabed2be2` |
+| Authors in this build | [8](live/authors.json) |
+| Sealed builds | [43](builds/) |
+| Finalized through | [25965628](https://etherscan.io/block/25965628) |
 | Contract | [0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc](https://etherscan.io/address/0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc) |
-| Last machine transaction | [0xb6c2154b…](https://etherscan.io/tx/0xb6c2154b97c444de45e4a342bdfe85d07970c928b0b9dbce8c113ce8dc550352) |
+| Last machine transaction | [0x183b0062…](https://etherscan.io/tx/0x183b00620552a0f8487813374608e18e2d011b477c62ecb252a5cf7fe15df898) |
 
 ```asm
-LOCK
-SWAP
-SWAP
-BREAK
+OPEN
+ADD
+PUSH
+PUSH
+DROP
 LINK
-RETURN
 ```
 
 [Tape](live/tape.asm) · [State](live/state.json) · [Trace](live/trace.json) · [Authors](live/authors.json)
 
 A build seals when the final opcode is HALT and the tape has at least 8 instructions.
 
-Latest sealed build: [#000042](builds/000042/program.asm) — **VERIFIED**.
+Latest sealed build: [#000043](builds/000043/program.asm) — **VERIFIED**.
 
-Finalizer: [0x666fedd4cdd4e890a5ad20e7b60975409435a64a](https://etherscan.io/address/0x666fedd4cdd4e890a5ad20e7b60975409435a64a) · [Sealing transaction](https://etherscan.io/tx/0xacec2f2d71cb6cbcb7ecfdfbb343c6bc324760431ccaeeca91289302311edb81).
+Finalizer: [0x1b82a3d07fc1da1392110509cc47bb38678d7f59](https://etherscan.io/address/0x1b82a3d07fc1da1392110509cc47bb38678d7f59) · [Sealing transaction](https://etherscan.io/tx/0xf942eed5f26f0eafceb12eb65e25e5baa5b0cd6fc24a6c760de13da93efc8516).
 
 *Snapshot of finalized Ethereum state. This section updates when the sync workflow runs.*
 
