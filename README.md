@@ -33,28 +33,28 @@ Only the current state.
 | Status | BUILDING |
 | Build | #000044 |
 | Tape | 14 / 256 instructions |
-| Tape hash | `0x0a3883189415268164893b6248f5bafdb082328130535912228c04f760bafcac` |
-| Authors in this build | [14](live/authors.json) |
+| Tape hash | `0x01a3c6ff938d59939ac04a9063472c929be143b7b1b43ce5eb0b7bb8b7ab1818` |
+| Authors in this build | [15](live/authors.json) |
 | Sealed builds | [43](builds/) |
-| Finalized through | [25967223](https://etherscan.io/block/25967223) |
+| Finalized through | [25968724](https://etherscan.io/block/25968724) |
 | Contract | [0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc](https://etherscan.io/address/0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc) |
-| Last machine transaction | [0x7a7f466f…](https://etherscan.io/tx/0x7a7f466f41d2cf24dedc4785d76762adae1a95292f0bc2ea84e0447387e6653a) |
+| Last machine transaction | [0x97bf35cf…](https://etherscan.io/tx/0x97bf35cf82de49af7765e69e66fbf02c342a2c571392f1f7d78e2294ba1597d0) |
 
 ```asm
 PUSH
-LINK
+BREAK
 OPEN
-SWAP
+RETURN
+OPEN
+JUMP
 SHIFT
-JUMP
 COPY
-JUMP
 MOVE
-OPEN
 DROP
 SWAP
+DROP
 LINK
-SHIFT
+SWAP
 ```
 
 [Tape](live/tape.asm) · [State](live/state.json) · [Trace](live/trace.json) · [Authors](live/authors.json)
