@@ -33,18 +33,18 @@ Only the current state.
 | Status | BUILDING |
 | Build | #000047 |
 | Tape | 12 / 256 instructions |
-| Tape hash | `0x64e63f70064aed88b89d03986547f3164f134e8a4b41862e84b0128bceda8eb1` |
+| Tape hash | `0x12e0ed6f7fe0c8b588239a1267aeb0608038650b54c6510f0142d32c1a041e82` |
 | Authors in this build | [9](live/authors.json) |
 | Sealed builds | [46](builds/) |
-| Finalized through | [25971312](https://etherscan.io/block/25971312) |
+| Finalized through | [25971979](https://etherscan.io/block/25971979) |
 | Contract | [0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc](https://etherscan.io/address/0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc) |
-| Last machine transaction | [0xbcac2a77…](https://etherscan.io/tx/0xbcac2a7702439e2dc8372758ff98292b8e6d4800998bc772572edafdf73bdf2f) |
+| Last machine transaction | [0x8f974614…](https://etherscan.io/tx/0x8f974614f10d91042dc2f54d90a9ca578378af3f6c51c765a47741fbae2c50eb) |
 
 ```asm
 LINK
 DROP
 LOCK
-LINK
+XOR
 COPY
 ADD
 RETURN
