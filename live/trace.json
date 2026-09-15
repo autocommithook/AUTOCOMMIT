@@ -1096,5 +1096,64 @@
     "opcode": "COPY",
     "index": 0,
     "tapeHash": "0xe6e00aa45e93d099c3f71d7814e5b13c2fbe78a1d83523af679b9b8fe562490b"
+  },
+  {
+    "block": 25985689,
+    "tx": "0xc5dbaa1721e82b98d2f39c8f33bdfa2976bf185b65f7fe72ca2bf4720d65c669",
+    "transactionIndex": 254,
+    "logIndex": 960,
+    "type": "WRITE",
+    "trader": "0xcaf0beadeaefc66fef60ac6526ab566d58c8647a",
+    "opcode": "PUSH",
+    "index": 29,
+    "tapeHash": "0xbb40d742a52c505250eb0ddf0345b109b3522bf023242a71ee52c24e09eeb67d"
+  },
+  {
+    "block": 25985742,
+    "tx": "0xe36b6eab33699339007629a1dca08551dfdbb6dd1a0ea954056b3b0cff6e19af",
+    "transactionIndex": 122,
+    "logIndex": 247,
+    "type": "EDIT",
+    "trader": "0x666fedd4cdd4e890a5ad20e7b60975409435a64a",
+    "edit": "MOVE",
+    "opcode": "SWAP",
+    "index": 1,
+    "tapeHash": "0x61e9066c5a32d8f19b15da505ffe0ddb9d0312e22f2906bf1dc435621406b83a"
+  },
+  {
+    "block": 25985985,
+    "tx": "0x8b487adea82a8207b0c8336f1eebe7e09649e3fff99937a69db75a1014c76940",
+    "transactionIndex": 48,
+    "logIndex": 129,
+    "type": "EDIT",
+    "trader": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+    "edit": "REPLACE",
+    "opcode": "CHECK",
+    "index": 11,
+    "tapeHash": "0xd5fdb3e9585cd54a07ff44d97260f723f09a407aba89ad3842bc0441c2e78987"
+  },
+  {
+    "block": 25985986,
+    "tx": "0x1ac776dd02b3ab50270037ef5e7657a3353e2e82fc493623ee35a2fed082dc7f",
+    "transactionIndex": 41,
+    "logIndex": 131,
+    "type": "EDIT",
+    "trader": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+    "edit": "ROTATE",
+    "opcode": "XOR",
+    "index": 0,
+    "tapeHash": "0x42f3a952aed5ccbf40ddaa552040adb1615fd27743c328bbefd39a550223b7d8"
+  },
+  {
+    "block": 25986003,
+    "tx": "0x9566554d04458bff6725ffd6882506b8f8ae724294932b1d22a16e04349fe6dc",
+    "transactionIndex": 113,
+    "logIndex": 202,
+    "type": "EDIT",
+    "trader": "0xcaf0beadeaefc66fef60ac6526ab566d58c8647a",
+    "edit": "MOVE",
+    "opcode": "BREAK",
+    "index": 14,
+    "tapeHash": "0x5f8fabd1a71d844452f3704f2547063775967ff412005e8bec5b11cb9c39be3b"
   }
 ]
