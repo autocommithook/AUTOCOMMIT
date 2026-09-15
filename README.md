@@ -32,13 +32,13 @@ Only the current state.
 | --- | --- |
 | Status | BUILDING |
 | Build | #000047 |
-| Tape | 27 / 256 instructions |
-| Tape hash | `0xbfc7d193064c37bee38ddf52b520cf99d1282207956af690599517f2952b07df` |
-| Authors in this build | [13](live/authors.json) |
+| Tape | 29 / 256 instructions |
+| Tape hash | `0xe6e00aa45e93d099c3f71d7814e5b13c2fbe78a1d83523af679b9b8fe562490b` |
+| Authors in this build | [14](live/authors.json) |
 | Sealed builds | [46](builds/) |
-| Finalized through | [25984536](https://etherscan.io/block/25984536) |
+| Finalized through | [25985526](https://etherscan.io/block/25985526) |
 | Contract | [0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc](https://etherscan.io/address/0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc) |
-| Last machine transaction | [0x0c6ef736…](https://etherscan.io/tx/0x0c6ef7361c4c13e7c352904607ae6a26359a13e6fd4d78c41828a011589eee7b) |
+| Last machine transaction | [0x9a821460…](https://etherscan.io/tx/0x9a821460e74ead0e53960e9722d4a29816c3b439dd200981c4a0a91780a45acc) |
 
 ```asm
 COPY
@@ -53,10 +53,10 @@ SHIFT
 COPY
 SHIFT
 COPY
-XOR
+RETURN
 DROP
 SHIFT
-PUSH
+BREAK
 PUSH
 LOCK
 OPEN
@@ -68,6 +68,8 @@ DROP
 COPY
 SWAP
 LOCK
+XOR
+COPY
 ```
 
 [Tape](live/tape.asm) · [State](live/state.json) · [Trace](live/trace.json) · [Authors](live/authors.json)
