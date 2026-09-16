@@ -1203,5 +1203,17 @@
     "opcode": "COPY",
     "index": 7,
     "tapeHash": "0x03074016db8c76926fb56bee46dd6f9c35a1defbed539d98395c2cf2e6819079"
+  },
+  {
+    "block": 25990041,
+    "tx": "0x0e8c8773879cef3370cbf7de0feea205f7d9a57c391bf79e64e643204b2ca063",
+    "transactionIndex": 18,
+    "logIndex": 163,
+    "type": "EDIT",
+    "trader": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "edit": "FORK",
+    "opcode": "OPEN",
+    "index": 1,
+    "tapeHash": "0x6369105d3a68a205fc40eb574fb8ecc9ae69f9ec8575ae860f64f04f9218f09d"
   }
 ]
