@@ -33,19 +33,16 @@ Only the current state.
 | Status | BUILDING |
 | Build | #000047 |
 | Tape | 31 / 256 instructions |
-| Tape hash | `0x6369105d3a68a205fc40eb574fb8ecc9ae69f9ec8575ae860f64f04f9218f09d` |
+| Tape hash | `0xa24f6e598ff16c63e65da992ad6b630b506aab4f4618dbd0551e93549092d132` |
 | Authors in this build | [14](live/authors.json) |
 | Sealed builds | [46](builds/) |
-| Finalized through | [25991714](https://etherscan.io/block/25991714) |
+| Finalized through | [25992669](https://etherscan.io/block/25992669) |
 | Contract | [0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc](https://etherscan.io/address/0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc) |
-| Last machine transaction | [0x0e8c8773…](https://etherscan.io/tx/0x0e8c8773879cef3370cbf7de0feea205f7d9a57c391bf79e64e643204b2ca063) |
+| Last machine transaction | [0xf35f71cd…](https://etherscan.io/tx/0xf35f71cdbd9941754d6cf4c11f97a9bef3ac325b284cdb1e699fcd1a0cb5aa3c) |
 
 ```asm
-SWAP
-OPEN
-COPY
-LINK
 XOR
+LINK
 SHIFT
 SHIFT
 SHIFT
@@ -72,6 +69,9 @@ PUSH
 LINK
 MOVE
 OPEN
+DROP
+PUSH
+ADD
 ```
 
 [Tape](live/tape.asm) · [State](live/state.json) · [Trace](live/trace.json) · [Authors](live/authors.json)
