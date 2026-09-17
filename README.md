@@ -32,13 +32,13 @@ Only the current state.
 | --- | --- |
 | Status | BUILDING |
 | Build | #000047 |
-| Tape | 32 / 256 instructions |
-| Tape hash | `0x16f24c46d86571f1419c421935e20aed994df9f95dc14dc0a9263dc47963fdd0` |
+| Tape | 33 / 256 instructions |
+| Tape hash | `0xd73cd4b9694315e8818a38ef915556d0947208959c3d6015eea5e3447ae417ae` |
 | Authors in this build | [14](live/authors.json) |
 | Sealed builds | [46](builds/) |
-| Finalized through | [25997930](https://etherscan.io/block/25997930) |
+| Finalized through | [25999144](https://etherscan.io/block/25999144) |
 | Contract | [0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc](https://etherscan.io/address/0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc) |
-| Last machine transaction | [0xf01846c8…](https://etherscan.io/tx/0xf01846c85231591a7ba8506576c81508c5964bf856c61a3b9d8568bef4742de1) |
+| Last machine transaction | [0x31859bf6…](https://etherscan.io/tx/0x31859bf6db11086a60b3ec56142329cb49fe146e94f8991635b46cfa87c633b8) |
 
 ```asm
 XOR
@@ -73,6 +73,7 @@ DROP
 PUSH
 ADD
 SHIFT
+ADD
 ```
 
 [Tape](live/tape.asm) · [State](live/state.json) · [Trace](live/trace.json) · [Authors](live/authors.json)
