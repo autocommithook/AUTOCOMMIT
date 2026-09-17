@@ -1275,5 +1275,17 @@
     "opcode": "SWAP",
     "index": 9,
     "tapeHash": "0xe4b07835cd9d632ec0438bb993edd9db77adda2bdfae5fd2efe7ce2bce232c73"
+  },
+  {
+    "block": 25997242,
+    "tx": "0xf01846c85231591a7ba8506576c81508c5964bf856c61a3b9d8568bef4742de1",
+    "transactionIndex": 230,
+    "logIndex": 471,
+    "type": "EDIT",
+    "trader": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+    "edit": "FORK",
+    "opcode": "SHIFT",
+    "index": 3,
+    "tapeHash": "0x16f24c46d86571f1419c421935e20aed994df9f95dc14dc0a9263dc47963fdd0"
   }
 ]
