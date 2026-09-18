@@ -1299,5 +1299,29 @@
     "opcode": "ADD",
     "index": 30,
     "tapeHash": "0xd73cd4b9694315e8818a38ef915556d0947208959c3d6015eea5e3447ae417ae"
+  },
+  {
+    "block": 26004168,
+    "tx": "0x2f9935e95e9d1be0f128cbcbf3ae95ac8c1d1420bf7a9eed728fe89e7eb99e04",
+    "transactionIndex": 60,
+    "logIndex": 169,
+    "type": "EDIT",
+    "trader": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "edit": "REPLACE",
+    "opcode": "PUSH",
+    "index": 16,
+    "tapeHash": "0x741fb5496bdf0e266ad882707537a7923f13d3eb353deda7bb7b810939ed3ea8"
+  },
+  {
+    "block": 26004661,
+    "tx": "0x16d3031fedd002c44012aa918eac482855881440b0ccecedf12e6e34f822c5e1",
+    "transactionIndex": 177,
+    "logIndex": 351,
+    "type": "EDIT",
+    "trader": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "edit": "ROTATE",
+    "opcode": "LINK",
+    "index": 0,
+    "tapeHash": "0xef5915ed6d8182294067d6987992a9a18bf658681bd4e6c9c4beb1d09ddfd92a"
   }
 ]
