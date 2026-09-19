@@ -33,12 +33,12 @@ Only the current state.
 | Status | BUILDING |
 | Build | #000047 |
 | Tape | 31 / 256 instructions |
-| Tape hash | `0x170f31f6f16482a284ca844a3d1d1a024fc33bd844585206fed15e54b3c136a1` |
+| Tape hash | `0x4b5c924b6402f1ea0452aaa7ad530d7a2aa621e11ae0ec50fc602153e96929af` |
 | Authors in this build | [16](live/authors.json) |
 | Sealed builds | [46](builds/) |
-| Finalized through | [26008204](https://etherscan.io/block/26008204) |
+| Finalized through | [26009670](https://etherscan.io/block/26009670) |
 | Contract | [0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc](https://etherscan.io/address/0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc) |
-| Last machine transaction | [0x9f4385e8…](https://etherscan.io/tx/0x9f4385e8495584eae61e9e76988c278ab84b89ce43aee4e38f0980b51d91a0ad) |
+| Last machine transaction | [0x9e42dfe7…](https://etherscan.io/tx/0x9e42dfe7539d326432b8a7c1326588addeb6309ef7b55320e39fc85344fea30e) |
 
 ```asm
 SHIFT
@@ -62,7 +62,7 @@ COPY
 LOCK
 SWAP
 XOR
-COPY
+MOVE
 PUSH
 LINK
 MOVE
