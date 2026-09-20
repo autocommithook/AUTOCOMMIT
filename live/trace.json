@@ -1415,5 +1415,17 @@
     "opcode": "MOVE",
     "index": 21,
     "tapeHash": "0x4b5c924b6402f1ea0452aaa7ad530d7a2aa621e11ae0ec50fc602153e96929af"
+  },
+  {
+    "block": 26021102,
+    "tx": "0xfb0594255d0dc1d5ea53c27469de104b1405abf28737f58c701cfe3be18422ba",
+    "transactionIndex": 0,
+    "logIndex": 3,
+    "type": "EDIT",
+    "trader": "0xb704fcb4c43bdc030de7ec5e0d5264b99aa3af36",
+    "edit": "REPLACE",
+    "opcode": "SHIFT",
+    "index": 29,
+    "tapeHash": "0x5dc01fffa16161b9045dffdea733219b7806d98db436a3925017467c91853ebe"
   }
 ]
