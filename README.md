@@ -33,12 +33,12 @@ Only the current state.
 | Status | BUILDING |
 | Build | #000047 |
 | Tape | 31 / 256 instructions |
-| Tape hash | `0x5dc01fffa16161b9045dffdea733219b7806d98db436a3925017467c91853ebe` |
+| Tape hash | `0xa0442dee4daf7a1cf5b2f92a053d12884fd97b64b5be34554bfc10718ce6d053` |
 | Authors in this build | [16](live/authors.json) |
 | Sealed builds | [46](builds/) |
-| Finalized through | [26023651](https://etherscan.io/block/26023651) |
+| Finalized through | [26025369](https://etherscan.io/block/26025369) |
 | Contract | [0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc](https://etherscan.io/address/0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc) |
-| Last machine transaction | [0xfb059425…](https://etherscan.io/tx/0xfb0594255d0dc1d5ea53c27469de104b1405abf28737f58c701cfe3be18422ba) |
+| Last machine transaction | [0xdfa14cf5…](https://etherscan.io/tx/0xdfa14cf54a3196812bccf38bf5a20de33e7d30e5df88478eeff36288aa6b769f) |
 
 ```asm
 SHIFT
@@ -64,8 +64,8 @@ SWAP
 XOR
 MOVE
 PUSH
-LINK
 MOVE
+LINK
 OPEN
 ADD
 PUSH
