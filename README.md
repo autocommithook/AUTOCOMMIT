@@ -33,19 +33,19 @@ Only the current state.
 | Status | BUILDING |
 | Build | #000047 |
 | Tape | 32 / 256 instructions |
-| Tape hash | `0x2f481f276bf058345d5bf0e5a0b564e03dc2b21b3534e62a4d599cc849fc52b9` |
+| Tape hash | `0x20cc2662003d15c28b6fa06f29f3de0fde87f4505861ffb7235432be8d4c355f` |
 | Authors in this build | [17](live/authors.json) |
 | Sealed builds | [46](builds/) |
-| Finalized through | [26031840](https://etherscan.io/block/26031840) |
+| Finalized through | [26033368](https://etherscan.io/block/26033368) |
 | Contract | [0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc](https://etherscan.io/address/0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc) |
-| Last machine transaction | [0xd271329d…](https://etherscan.io/tx/0xd271329d077f38cab80d5848f4f37130b77c3536672ada92383e5e2ced184e13) |
+| Last machine transaction | [0x351386a3…](https://etherscan.io/tx/0x351386a3189564ade0e0a6b4397533715366770f4b40460519b14c54bc7ce10c) |
 
 ```asm
 SHIFT
 SHIFT
 COPY
-CHECK
 RETURN
+CHECK
 DROP
 SWAP
 PUSH

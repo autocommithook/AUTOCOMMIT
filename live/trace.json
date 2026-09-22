@@ -1496,5 +1496,17 @@
     "opcode": "PUSH",
     "index": 21,
     "tapeHash": "0x2f481f276bf058345d5bf0e5a0b564e03dc2b21b3534e62a4d599cc849fc52b9"
+  },
+  {
+    "block": 26032358,
+    "tx": "0x351386a3189564ade0e0a6b4397533715366770f4b40460519b14c54bc7ce10c",
+    "transactionIndex": 21,
+    "logIndex": 33,
+    "type": "EDIT",
+    "trader": "0xcaf0beadeaefc66fef60ac6526ab566d58c8647a",
+    "edit": "MOVE",
+    "opcode": "CHECK",
+    "index": 3,
+    "tapeHash": "0x20cc2662003d15c28b6fa06f29f3de0fde87f4505861ffb7235432be8d4c355f"
   }
 ]
