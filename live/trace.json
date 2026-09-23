@@ -1508,5 +1508,17 @@
     "opcode": "CHECK",
     "index": 3,
     "tapeHash": "0x20cc2662003d15c28b6fa06f29f3de0fde87f4505861ffb7235432be8d4c355f"
+  },
+  {
+    "block": 26037759,
+    "tx": "0xed047f2632e1bb77a6dfaf17ef7b49faaa425c1f1d83bf01b86eb46dacacfeed",
+    "transactionIndex": 34,
+    "logIndex": 682,
+    "type": "EDIT",
+    "trader": "0xcaf0beadeaefc66fef60ac6526ab566d58c8647a",
+    "edit": "REPLACE",
+    "opcode": "PUSH",
+    "index": 26,
+    "tapeHash": "0xf62970c23f9ef4e7baa28453b2131ae8068a7f4d552cc8e229a9de7e34da0c05"
   }
 ]
