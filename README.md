@@ -32,13 +32,13 @@ Only the current state.
 | --- | --- |
 | Status | BUILDING |
 | Build | #000047 |
-| Tape | 32 / 256 instructions |
-| Tape hash | `0x8bbf759629784274f9ccea14ed534b6d34effe684006a767f4698dc60043ff29` |
+| Tape | 33 / 256 instructions |
+| Tape hash | `0xb458ed95e5a143c360d9b4a0afbe2b39de8588058163f14266a754be3c3342f9` |
 | Authors in this build | [17](live/authors.json) |
 | Sealed builds | [46](builds/) |
-| Finalized through | [26049973](https://etherscan.io/block/26049973) |
+| Finalized through | [26050734](https://etherscan.io/block/26050734) |
 | Contract | [0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc](https://etherscan.io/address/0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc) |
-| Last machine transaction | [0xac59c067…](https://etherscan.io/tx/0xac59c067e7b2b65c678f199d1308d376c62d32e9753213edb9bca1bad878ce0b) |
+| Last machine transaction | [0xa3ab6244…](https://etherscan.io/tx/0xa3ab6244aa19325b537bf53908d48c510f198695723dfc20484348b18e173d8e) |
 
 ```asm
 SHIFT
@@ -73,6 +73,7 @@ PUSH
 ADD
 CHECK
 ADD
+PUSH
 ```
 
 [Tape](live/tape.asm) · [State](live/state.json) · [Trace](live/trace.json) · [Authors](live/authors.json)
