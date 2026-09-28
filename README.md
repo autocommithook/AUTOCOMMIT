@@ -33,12 +33,12 @@ Only the current state.
 | Status | BUILDING |
 | Build | #000047 |
 | Tape | 35 / 256 instructions |
-| Tape hash | `0x9b76bd9d43e3454aa3dbcc23ea4fe9c9a2b8f7987045e78dedb142d3200f438d` |
+| Tape hash | `0x2a682b50ff4bd6c07850766d24fa2802509ac60ea6133b47121d973c0a199d44` |
 | Authors in this build | [17](live/authors.json) |
 | Sealed builds | [46](builds/) |
-| Finalized through | [26074314](https://etherscan.io/block/26074314) |
+| Finalized through | [26076866](https://etherscan.io/block/26076866) |
 | Contract | [0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc](https://etherscan.io/address/0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc) |
-| Last machine transaction | [0x7b8a6deb…](https://etherscan.io/tx/0x7b8a6debabb5e07d47d15fa468caa18f6289864edb44e84b32b56738bf149af6) |
+| Last machine transaction | [0x523a7561…](https://etherscan.io/tx/0x523a7561cf00c413c71339535f18e41b7c9b92d7ec9795d1ad043b1f8c54fc1c) |
 
 ```asm
 SHIFT
