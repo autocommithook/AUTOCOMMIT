@@ -1615,5 +1615,27 @@
     "opcode": "ADD",
     "index": 29,
     "tapeHash": "0x2a682b50ff4bd6c07850766d24fa2802509ac60ea6133b47121d973c0a199d44"
+  },
+  {
+    "block": 26076926,
+    "tx": "0xcfb74fd97025864a248ecd41e0633e3a910c963924d572a195d976136c1ef769",
+    "transactionIndex": 5,
+    "logIndex": 86,
+    "type": "AUTHOR",
+    "buildId": 47,
+    "author": "0x7f98c4510ce9434c3ab82be48a4a9899762ed5e4",
+    "authorCount": 18
+  },
+  {
+    "block": 26076926,
+    "tx": "0xcfb74fd97025864a248ecd41e0633e3a910c963924d572a195d976136c1ef769",
+    "transactionIndex": 5,
+    "logIndex": 87,
+    "type": "EDIT",
+    "trader": "0x7f98c4510ce9434c3ab82be48a4a9899762ed5e4",
+    "edit": "REPLACE",
+    "opcode": "XOR",
+    "index": 0,
+    "tapeHash": "0x9324d285152f728c29e6f76dec0635a0c98e05f8e1a2980a649d799ae34749e7"
   }
 ]

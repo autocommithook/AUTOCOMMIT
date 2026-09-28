@@ -33,15 +33,15 @@ Only the current state.
 | Status | BUILDING |
 | Build | #000047 |
 | Tape | 35 / 256 instructions |
-| Tape hash | `0x2a682b50ff4bd6c07850766d24fa2802509ac60ea6133b47121d973c0a199d44` |
-| Authors in this build | [17](live/authors.json) |
+| Tape hash | `0x9324d285152f728c29e6f76dec0635a0c98e05f8e1a2980a649d799ae34749e7` |
+| Authors in this build | [18](live/authors.json) |
 | Sealed builds | [46](builds/) |
-| Finalized through | [26076866](https://etherscan.io/block/26076866) |
+| Finalized through | [26078584](https://etherscan.io/block/26078584) |
 | Contract | [0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc](https://etherscan.io/address/0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc) |
-| Last machine transaction | [0x523a7561…](https://etherscan.io/tx/0x523a7561cf00c413c71339535f18e41b7c9b92d7ec9795d1ad043b1f8c54fc1c) |
+| Last machine transaction | [0xcfb74fd9…](https://etherscan.io/tx/0xcfb74fd97025864a248ecd41e0633e3a910c963924d572a195d976136c1ef769) |
 
 ```asm
-SHIFT
+XOR
 SHIFT
 COPY
 RETURN
