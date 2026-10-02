@@ -33,12 +33,12 @@ Only the current state.
 | Status | BUILDING |
 | Build | #000047 |
 | Tape | 34 / 256 instructions |
-| Tape hash | `0xa345d8e8f42a16865e9178e3df71d35c58ae249cc1c5dfe96c28dd6bf1c9a17a` |
-| Authors in this build | [18](live/authors.json) |
+| Tape hash | `0x3658ff50bcc8610722dfa3ce7d693a16c94df4588b9576b935fd99093bbe7537` |
+| Authors in this build | [19](live/authors.json) |
 | Sealed builds | [46](builds/) |
-| Finalized through | [26105423](https://etherscan.io/block/26105423) |
+| Finalized through | [26106823](https://etherscan.io/block/26106823) |
 | Contract | [0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc](https://etherscan.io/address/0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc) |
-| Last machine transaction | [0xac214f63…](https://etherscan.io/tx/0xac214f634840f2412490296b44092bba535a210c52128a4659643d6540035077) |
+| Last machine transaction | [0xe5667077…](https://etherscan.io/tx/0xe56670775ffcabfc60d27480eabece491caee4787f99d3564e5b411001587cf7) |
 
 ```asm
 XOR
@@ -54,8 +54,8 @@ LOCK
 XOR
 OPEN
 PUSH
-SWAP
 PUSH
+SWAP
 DROP
 COPY
 LOCK
