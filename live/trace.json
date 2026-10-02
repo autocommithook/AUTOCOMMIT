@@ -1637,5 +1637,17 @@
     "opcode": "XOR",
     "index": 0,
     "tapeHash": "0x9324d285152f728c29e6f76dec0635a0c98e05f8e1a2980a649d799ae34749e7"
+  },
+  {
+    "block": 26104889,
+    "tx": "0xac214f634840f2412490296b44092bba535a210c52128a4659643d6540035077",
+    "transactionIndex": 247,
+    "logIndex": 508,
+    "type": "EDIT",
+    "trader": "0xcaf0beadeaefc66fef60ac6526ab566d58c8647a",
+    "edit": "DELETE",
+    "opcode": "CHECK",
+    "index": 8,
+    "tapeHash": "0xa345d8e8f42a16865e9178e3df71d35c58ae249cc1c5dfe96c28dd6bf1c9a17a"
   }
 ]
