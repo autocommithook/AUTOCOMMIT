@@ -1671,5 +1671,27 @@
     "opcode": "SWAP",
     "index": 13,
     "tapeHash": "0x3658ff50bcc8610722dfa3ce7d693a16c94df4588b9576b935fd99093bbe7537"
+  },
+  {
+    "block": 26114220,
+    "tx": "0x83d8fe647e8b4b4d50cb0b0d6e2590f01f92262ab763aca006bfa97a365ca34c",
+    "transactionIndex": 19,
+    "logIndex": 254,
+    "type": "AUTHOR",
+    "buildId": 47,
+    "author": "0x227be0f88ecb7899a0e6e0347888b909d622c8e1",
+    "authorCount": 20
+  },
+  {
+    "block": 26114220,
+    "tx": "0x83d8fe647e8b4b4d50cb0b0d6e2590f01f92262ab763aca006bfa97a365ca34c",
+    "transactionIndex": 19,
+    "logIndex": 255,
+    "type": "EDIT",
+    "trader": "0x227be0f88ecb7899a0e6e0347888b909d622c8e1",
+    "edit": "MOVE",
+    "opcode": "XOR",
+    "index": 19,
+    "tapeHash": "0xb94b6526794a45faa26d387196fc0ac8a9e65375a33261f2180e8be675d16b3e"
   }
 ]

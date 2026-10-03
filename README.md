@@ -33,12 +33,12 @@ Only the current state.
 | Status | BUILDING |
 | Build | #000047 |
 | Tape | 34 / 256 instructions |
-| Tape hash | `0x3658ff50bcc8610722dfa3ce7d693a16c94df4588b9576b935fd99093bbe7537` |
-| Authors in this build | [19](live/authors.json) |
+| Tape hash | `0xb94b6526794a45faa26d387196fc0ac8a9e65375a33261f2180e8be675d16b3e` |
+| Authors in this build | [20](live/authors.json) |
 | Sealed builds | [46](builds/) |
-| Finalized through | [26113555](https://etherscan.io/block/26113555) |
+| Finalized through | [26114576](https://etherscan.io/block/26114576) |
 | Contract | [0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc](https://etherscan.io/address/0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc) |
-| Last machine transaction | [0xe5667077…](https://etherscan.io/tx/0xe56670775ffcabfc60d27480eabece491caee4787f99d3564e5b411001587cf7) |
+| Last machine transaction | [0x83d8fe64…](https://etherscan.io/tx/0x83d8fe647e8b4b4d50cb0b0d6e2590f01f92262ab763aca006bfa97a365ca34c) |
 
 ```asm
 XOR
@@ -60,8 +60,8 @@ DROP
 COPY
 LOCK
 SWAP
-XOR
 MOVE
+XOR
 MOVE
 MOVE
 LINK
