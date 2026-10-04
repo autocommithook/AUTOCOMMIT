@@ -33,15 +33,14 @@ Only the current state.
 | Status | BUILDING |
 | Build | #000047 |
 | Tape | 34 / 256 instructions |
-| Tape hash | `0xb94b6526794a45faa26d387196fc0ac8a9e65375a33261f2180e8be675d16b3e` |
+| Tape hash | `0x671046aa060468ef2d3bcd411e57ba06765b48341c55f5cb924f7d449a21b565` |
 | Authors in this build | [20](live/authors.json) |
 | Sealed builds | [46](builds/) |
-| Finalized through | [26114576](https://etherscan.io/block/26114576) |
+| Finalized through | [26115310](https://etherscan.io/block/26115310) |
 | Contract | [0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc](https://etherscan.io/address/0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc) |
-| Last machine transaction | [0x83d8fe64…](https://etherscan.io/tx/0x83d8fe647e8b4b4d50cb0b0d6e2590f01f92262ab763aca006bfa97a365ca34c) |
+| Last machine transaction | [0x6382f109…](https://etherscan.io/tx/0x6382f10967ab0235cc52c247432d2b227c166938f734f15b23d829c514306524) |
 
 ```asm
-XOR
 SHIFT
 COPY
 RETURN
@@ -74,6 +73,7 @@ ADD
 ADD
 CHECK
 PUSH
+SHIFT
 SHIFT
 ```
 
