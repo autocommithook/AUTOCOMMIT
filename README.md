@@ -33,15 +33,14 @@ Only the current state.
 | Status | BUILDING |
 | Build | #000047 |
 | Tape | 34 / 256 instructions |
-| Tape hash | `0x671046aa060468ef2d3bcd411e57ba06765b48341c55f5cb924f7d449a21b565` |
+| Tape hash | `0xc85d762f6fac10b4d22afdc15eb268d48730e73a8dba7e3a7bc05e1814c18f0d` |
 | Authors in this build | [20](live/authors.json) |
 | Sealed builds | [46](builds/) |
-| Finalized through | [26234199](https://etherscan.io/block/26234199) |
+| Finalized through | [26235536](https://etherscan.io/block/26235536) |
 | Contract | [0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc](https://etherscan.io/address/0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc) |
-| Last machine transaction | [0x6382f109…](https://etherscan.io/tx/0x6382f10967ab0235cc52c247432d2b227c166938f734f15b23d829c514306524) |
+| Last machine transaction | [0x113ff3d3…](https://etherscan.io/tx/0x113ff3d322a55eb634a85fcd46a680ec78fdebf94434db1bd9d4321b9e3f237a) |
 
 ```asm
-SHIFT
 COPY
 RETURN
 CHECK
@@ -75,6 +74,7 @@ CHECK
 PUSH
 SHIFT
 SHIFT
+PUSH
 ```
 
 [Tape](live/tape.asm) · [State](live/state.json) · [Trace](live/trace.json) · [Authors](live/authors.json)
