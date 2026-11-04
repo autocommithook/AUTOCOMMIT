@@ -36,7 +36,7 @@ Only the current state.
 | Tape hash | `0xaa7a162821319b9b9b77d0318e6cfb43dcbd5fba148c9c1e69ec7ce32befeee0` |
 | Authors in this build | [20](live/authors.json) |
 | Sealed builds | [46](builds/) |
-| Finalized through | [26342139](https://etherscan.io/block/26342139) |
+| Finalized through | [26344053](https://etherscan.io/block/26344053) |
 | Contract | [0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc](https://etherscan.io/address/0xec48D60D9078edEa7F37B6Bd309d9F8e2fdf60Cc) |
 | Last machine transaction | [0x51f152c6…](https://etherscan.io/tx/0x51f152c66ff111cb698ac31c16bdb3b394a364c9b4672bac5c25d600987cac54) |
 
