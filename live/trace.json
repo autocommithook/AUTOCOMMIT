@@ -1753,5 +1753,17 @@
     "opcode": "JUMP",
     "index": 7,
     "tapeHash": "0x602113b8c03031756d21a788a1b60bcc973b9cc858fd1fc97983e7c463bcf364"
+  },
+  {
+    "block": 26364978,
+    "tx": "0xd1f7b60c06a8cc26beb65751a7d12d8a082d76f7ca987146f511340a4dc65bf2",
+    "transactionIndex": 45,
+    "logIndex": 98,
+    "type": "EDIT",
+    "trader": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "edit": "MOVE",
+    "opcode": "CHECK",
+    "index": 29,
+    "tapeHash": "0x46cb098f22b269e9fdc993b5a33ba3d0dfa39b995f116bf315537691a9109aef"
   }
 ]
